@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* **************************Header Start ***************************/
+.header {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.left .fa-phone {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.left a {
+    color: #000000;
+}
+
+.left a i {
+    font-size: 23px;
+    color: #000000;
+}
+
+.right {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.right a {
+    color: #000000;
+    margin-right: 12px;
+}
+
+.right a i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* **************************Header End ***************************/
+/* **************************Nanvabr Start ***************************/
+
+.navbar {
+    background-color: #fff;
+    padding-top: 10px;
+}
+
+.navbar ul {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li:nth-child(1) img {
+    width: 190px;
+}
+
+.dropdown,
+.navbar ul li a {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 600;
+    border-bottom: 4px solid transparent;
+    transition: all .4s linear;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 1px;
+}
+
+.dropdown:hover,
+.navbar ul li a:hover {
+    color: #0b87d3;
+    border-color: #0b87d3;
+}
+
+.navbar ul li:last-child>button {
+    color: #000000;
+    background-color: transparent;
+    padding: 13px;
+    font-size: 15px;
+    border: 1px solid #0b87d3;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: all .3s linear;
+}
+
+.navbar ul li:last-child>button:hover {
+    background-color: #0b87d3;
+    color: #fff;
+}
+
+/* dropdown */
+
+.dropdown {
+    position: relative;
+    cursor: pointer;
+    padding-bottom: unset;
+    transition: all .5s linear;
+}
+
+.dropdown:hover .dropdown_list {
+    display: block;
+}
+
+.dropdown .dropdown_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    top: 31px;
+    width: 280px;
+    line-height: 2.8;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    display: none;
+    border-radius: 5px;
+
+}
+
+.dropdown .dropdown_list li {
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    line-height: 4.5;
+}
+.dropdown .dropdown_list li a{
+   font-size:15px ;
+}
+
+.dropdown .dropdown_list li:hover {
+    background-color: #0B87D3;
+    color: #fff;
+}
+
+
+
+/* **************************Nanvabr End ***************************/
+/* **************************Data Start ***************************/
+.data{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+.left h1{
+    padding-top: 80px;
+    font-size: 22px;
+    font-family: algerian;
+}
+.left h1::first-line{
+    background-color: #B6FFFA;
+}
+.left p{
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+ .butn{
+    width: 20%;
+    margin-left: 550px;
+    padding: 20px ;
+    background-color:#02F161; 
+    border-color: #f7f8fb;  
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    transition: all .4s linear;
+    display: inline-block;
+    
+}
+.butn:hover{
+background-color: #ED7D31;
+
+}
+.img{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+/* **************************DAta End ***************************/
+
+/* **************************Para Start ***************************/
+.para{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    justify-content:center;
+}
+.para h1{
+    font-size: 40px;
+    font-family: cursive;
+}
+.para h1::first-line{
+    background-color: #ED7D31;
+}
+.para h2{
+    font-size: 30px;
+    font-family: cursive;
+}
+.para p{
+    font-size: 18px;
+    font-family: cursive;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+/* **************************Para End ***************************/
+
+/* **************************Types Start ***************************/
+.types{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 90px 0px;
+    gap: 30px;
+    background-color: #B6FFFA;
+    margin-top: 80px;
+}
+
+.left1 h1{
+    padding-left: 30px;
+    font-size: 30px;
+    font-family: cursive;
+    color: #fff;
+}
+.left1 h1::first-line{
+    background-color: #191D88;
+}
+
+.left1 p{
+    padding-left: 50px;
+    width: 70%;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .1px;
+     align-items: center;
+     font-family: cursive;
+}
+.right{
+    font-size: 18px;
+     font-family: cursive;
+     padding-right: 50px;
+     font-weight: 600;
+    letter-spacing: .1px;
+
+}
+.right h1{
+    font-size: 30px;
+    font-family: cursive;
+    color: #fff;
+}
+.right h1::first-line{
+    background-color: #191D88;
+}
+
+
+
+/* **************************Types End ***************************/
+
+/* **************************Footer TeamSectoin Start  ***************************/
+
+.footer{
+    background-color: #252B33;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.chiledFooter{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+.chiledFooter .row{
+    display: flex;
+    justify-content: space-between;
+}
+.chiledFooter .row .coulumn1 ul li{
+    list-style: none;
+}
+.chiledFooter .row .coulumn3 ul li:first-child,
+.chiledFooter .row .coulumn2 ul li:first-child,
+.chiledFooter .row .coulumn1 ul li:first-child{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+.chiledFooter .row .coulumn1 ul li:nth-child(2){
+    font-size: 13px;
+    margin-bottom: 18px;
+    font-weight: normal;
+}
+.chiledFooter .row .coulumn1 ul li:nth-child(3){
+font-size: 20px;
+margin-bottom: 10px;
+}
+.chiledFooter .row .coulumn2 ul li a,
+.chiledFooter .row .coulumn1 ul li a{
+    color: #fff;
+}
+.chiledFooter .row .coulumn1 ul li i{
+    margin-right: 10px;
+    line-height: 2.5;
+    font-size: 14px;
+    color: #02F161;
+}
+.chiledFooter .row .coulumn3 ul li a:hover,
+.chiledFooter .row .coulumn2 ul li a:hover,
+.chiledFooter .row .coulumn1 ul li:nth-child(4):hover,
+.chiledFooter .row .coulumn1 ul li:nth-child(5):hover,
+.chiledFooter .row .coulumn1 ul li a:hover{
+    color: #02F161;
+}
+.chiledFooter .row .coulumn3 ul li,
+.chiledFooter .row .coulumn2 ul li{
+    list-style: none;
+}
+.chiledFooter .row .coulumn3 ul li a,
+.chiledFooter .row .coulumn2 ul li a{
+    color: #fff;
+    text-transform: capitalize;
+    line-height: 2;
+}
+.chiledFooter .row .coulumn4 
+{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+}
+.chiledFooter .row .coulumn4 .row2,
+.chiledFooter .row .coulumn4 .row{
+    margin-bottom: 30px;
+}
+.chiledFooter .row .coulumn4 .row2 a,
+.chiledFooter .row .coulumn4 .row a {
+    /* display: inline-block; */
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 20px;
+    transition: all .2s linear;
+}
+.chiledFooter .row .coulumn4 .row2 a i,
+.chiledFooter .row .coulumn4 .row a i{
+    color: #fff;
+    font-size: 23px;
+}
+.chiledFooter .row .coulumn4 .row2 a:hover,
+.chiledFooter .row .coulumn4 .row a:hover{
+    transform: scale(1.2);
+}
+.chiledFooter .row .coulumn4 .row a:nth-child(1){
+    background-color: #0b87d3;
+}
+.chiledFooter .row .coulumn4 .row a:nth-child(2){
+    background-color: #cd201f;
+}
+.chiledFooter .row .coulumn4 .row2 a:nth-child(1){
+    background-color: #000000;
+}
+.chiledFooter .row .coulumn4 .row2 a:nth-child(2){
+    background-color: #0B87D3;
+}
+.chiledFooter .row .coulumn4 .row2{
+    display: flex;
+}
+.chiledFooter .row .coulumn4 p {
+    text-align: end;
+    font-size: 14px;
+}
+
+/* **************************Footer TeamSectoin End  ***************************/
